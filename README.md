@@ -55,6 +55,8 @@ The result is zero-extended. See [project/spec.pdf](project/spec.pdf).
 
 - May. 11: We announce a policy for asking questions via e-mail to TAs: [issue 15](https://github.com/snu-sf-class/swpp202001/issues/15)
 
+- May. 11: We share a few (anonymized) reviews from assignment 5 submissions. It is at practice/5.reviews.zip .
+
 ## Assignments
 
 - Mar. 19: Assignment 1 is announced. See here: https://github.com/aqjune/swpp202001-assn1
