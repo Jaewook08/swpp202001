@@ -53,6 +53,8 @@ The result is zero-extended. See [project/spec.pdf](project/spec.pdf).
 
 - May. 4: We announce the assembly interpreter, tests, and bug fixes in compiler: [issue 13](https://github.com/snu-sf-class/swpp202001/issues/13)
 
+- May. 11: We announce a policy for asking questions via e-mail to TAs: [issue 15](https://github.com/snu-sf-class/swpp202001/issues/15)
+
 ## Assignments
 
 - Mar. 19: Assignment 1 is announced. See here: https://github.com/aqjune/swpp202001-assn1
