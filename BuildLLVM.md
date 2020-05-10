@@ -10,28 +10,22 @@ Recommended setting:
 
 #### Prerequisites
 
-- `python3`: required for running scripts
-- `git`: required for cloning repos
-- `cmake3`, `ninja`, `g++`: required for building repos
-
-```
-# Ubuntu:
-apt update
-apt install git cmake ninja-build g++
-```
-
 We'll use https://github.com/aqjune/llvmscript. Please clone the repo first.
 
 ```
+sudo apt install git
 git clone git@github.com:aqjune/llvmscript.git
 # If it raises permission denied error, try 'git clone https://github.com/aqjune/llvmscript.git' instead
 cd llvmscript
 ```
 
+See README.md in the repo to see & install required repositories.
+
 Clone LLVM:
 ```
 # Please edit "src" attribute at examples/llvm.json to specify where to clone LLVM project
 python3 run.py clone --cfg examples/llvm.json
+# NOTE: for project, please use practice/4.materials/llvm-10.0.json
 ```
 
 Build LLVM:
