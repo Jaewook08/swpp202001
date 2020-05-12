@@ -57,6 +57,9 @@ The result is zero-extended. See [project/spec.pdf](project/spec.pdf).
 
 - May. 11: We share a few (anonymized) reviews from assignment 5 submissions. It is at practice/5.reviews.zip .
 
+- May. 12: The total cost is updated to include the maximum heap usage. See [issue 17](https://github.com/snu-sf-class/swpp202001/issues/17).
+Also, [project/spec.pdf](project/spec.pdf) is updated so it contains answers to the questions from issue 6 and 7.
+
 ## Assignments
 
 - Mar. 19: Assignment 1 is announced. See here: https://github.com/aqjune/swpp202001-assn1
