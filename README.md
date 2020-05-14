@@ -60,6 +60,8 @@ The result is zero-extended. See [project/spec.pdf](project/spec.pdf).
 - May. 12: The total cost is updated to include the maximum heap usage. See [issue 17](https://github.com/snu-sf-class/swpp202001/issues/17).
 Also, [project/spec.pdf](project/spec.pdf) is updated so it contains answers to the questions from issue 6 and 7.
 
+- May. 14: We'll not count pull requests satisfying specific criteria: see [issue 12](https://github.com/snu-sf-class/swpp202001/issues/12#issuecomment-628568099)
+
 ## Assignments
 
 - Mar. 19: Assignment 1 is announced. See here: https://github.com/aqjune/swpp202001-assn1
