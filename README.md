@@ -62,6 +62,8 @@ Also, [project/spec.pdf](project/spec.pdf) is updated so it contains answers to 
 
 - May. 14: We'll not count pull requests satisfying specific criteria: see [issue 12](https://github.com/snu-sf-class/swpp202001/issues/12#issuecomment-628568099)
 
+- May. 18: Our interpreter now logs the cost for each function call - see [issue 13](https://github.com/snu-sf-class/swpp202001/issues/13#issuecomment-630203491)
+
 ## Assignments
 
 - Mar. 19: Assignment 1 is announced. See here: https://github.com/aqjune/swpp202001-assn1
