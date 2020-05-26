@@ -10,6 +10,8 @@
 
 - Mar. 17: To build LLVM, please follow [BuildLLVM.md](BuildLLVM.md). If it doesn't work due to insufficient memory / free space, please contact TA to request a laptop for a class. EDIT: please use this form to request a laptop: https://forms.gle/jDV6K4sD61WEZKh99 *until: Mar. 25 Wed*
 
+- May. 26: Creational patterns in LLVM is described at [pattern-creational.pdf](pattern-creational.pdf)
+
 ## Projects
 
 - Apr. 13: Check the [issue](https://github.com/snu-sf-class/swpp202001/issues/3) for making up project teams.
