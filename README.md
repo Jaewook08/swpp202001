@@ -68,6 +68,8 @@ Also, [project/spec.pdf](project/spec.pdf) is updated so it contains answers to 
 
 - May. 26: To set continuous integration for your project (which is optional), see [ci.pdf](practice/ci.pdf) as well as the video at ETL.
 
+- May. 27: The benchmark set is updated - see [issue 13](https://github.com/snu-sf-class/swpp202001/issues/13#issuecomment-634546168)
+
 ## Assignments
 
 - Mar. 19: Assignment 1 is announced. See here: https://github.com/aqjune/swpp202001-assn1
