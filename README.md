@@ -108,3 +108,5 @@ possible output. Please see the updated README.md of assignment 4.
 - Apr. 24: Assignment 5 is announced. Deadline is May. 5 (11:59 pm). You can use
 [issue 8](https://github.com/snu-sf-class/swpp202001/issues/8) and
 [issue 9](https://github.com/snu-sf-class/swpp202001/issues/9) to ask questions.
+
+- Jun. 1: Scores of assignment 3, 4 is here: [issue 19](https://github.com/snu-sf-class/swpp202001/issues/19), [issue 20](https://github.com/snu-sf-class/swpp202001/issues/20)
