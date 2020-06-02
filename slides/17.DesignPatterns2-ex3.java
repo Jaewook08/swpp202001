@@ -2,18 +2,26 @@ interface User {
     public void print();
 }
 
+interface UserFactory {
+    public User makeUser(String name, String address);
+    public User makeUser(String name, String address, String account, Boolean prettyPrinting);
+}
+
+// HEY USER, DO NOT TRY TO READ THE CODE.
+// getName() does ...
+// getAddress() does ...
 interface UserDetails extends User {
     public String getName();
     public String getAddress();
 }
 
-class DefaultUser implements UserDetails {
+class UserImpl implements UserDetails {
     private String name;
     private String address;
 
-    public DefaultUser(String _name, String _address) {
-	name = _name;
-	address = _address;
+    public UserImpl(String name, String address) {
+	this.name = name;
+	this.address = address;
     }
 
     public String getName() { return name; }
@@ -31,10 +39,10 @@ class VIP implements User {
     private String account;
     private Boolean prettyPrinting;
 
-    public VIP(String _name, String _address, String _account, Boolean _prettyPrinting) {
-	user = new DefaultUser(_name, _address);
-	account = _account;
-	prettyPrinting = _prettyPrinting;
+    public VIP(String name, String address, String account, Boolean prettyPrinting) {
+	user = new UserImpl(name, address);
+	this.account = account;
+	this.prettyPrinting = prettyPrinting;
     }
     
     public void print() {
@@ -49,14 +57,24 @@ class VIP implements User {
     }
 }
 
+class UserFactoryImpl implements UserFactory {
+    public User makeUser(String name, String address) {
+	return new UserImpl(name, address);
+    }
+    public User makeUser(String name, String address, String account, Boolean prettyPrinting) {
+	return new VIP(name, address, account, prettyPrinting);
+    }
+}
+
 class Main {
     static void printUser(User user) {
 	user.print();
     }
     public static void main(String[ ] args) {
-	DefaultUser user = new DefaultUser("sunghwan","SNU");
-	VIP vip = new VIP("gil", "SNU", "1234", false);
-	VIP vip2 = new VIP("hur", "KAIST", "5678", true);
+	UserFactory uf = new UserFactoryImpl();
+	User user = uf.makeUser("sunghwan","SNU");
+	User vip = uf.makeUser("gil", "SNU", "1234", false);
+	User vip2 = uf.makeUser("hur", "KAIST", "5678", true);
 
 	printUser(user);
 	printUser(vip);

@@ -2,9 +2,9 @@ class User {
     private String name;
     private String address;
 
-    public User(String _name, String _address) {
-	name = _name;
-	address = _address;
+    public User(String name, String address) {
+	this.name = name;
+	this.address = address;
     }
 
     public void print() {
@@ -16,9 +16,9 @@ class User {
 class VIP extends User {
     private String account;
 
-    public VIP(String _name, String _address, String _account) {
-	super(_name, _address);
-	account = _account;
+    public VIP(String name, String address, String account) {
+	super(name, address);
+	this.account = account;
     }
 
     public void print() {

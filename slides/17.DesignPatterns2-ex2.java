@@ -2,13 +2,13 @@ interface User {
     public void print();
 }
 
-class DefaultUser implements User {
+class UserImpl implements User {
     private String name;
     private String address;
 
-    public DefaultUser(String _name, String _address) {
-	name = _name;
-	address = _address;
+    public UserImpl(String name, String address) {
+	this.name = name;
+	this.address = address;
     }
     
     public void print() {
@@ -18,12 +18,12 @@ class DefaultUser implements User {
 }
 
 class VIP implements User {
-    private DefaultUser user;
+    private UserImpl user;
     private String account;
 
-    public VIP(String _name, String _address, String _account) {
-	user = new DefaultUser(_name, _address);
-	account = _account;
+    public VIP(String name, String address, String account) {
+	user = new UserImpl(name, address);
+	this.account = account;
     }
     
     public void print() {
@@ -37,7 +37,7 @@ class Main {
 	user.print();
     }
     public static void main(String[ ] args) {
-	DefaultUser user = new DefaultUser("sunghwan","SNU");
+	UserImpl user = new UserImpl("sunghwan","SNU");
 	VIP vip = new VIP("gil", "SNU", "1234");
 
 	printUser(user);
