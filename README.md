@@ -112,3 +112,5 @@ possible output. Please see the updated README.md of assignment 4.
 [issue 9](https://github.com/snu-sf-class/swpp202001/issues/9) to ask questions.
 
 - Jun. 1: Scores of assignment 3, 4 is here: [issue 19](https://github.com/snu-sf-class/swpp202001/issues/19), [issue 20](https://github.com/snu-sf-class/swpp202001/issues/20)
+
+- Jun. 10. Scores of assignment 5 is here: [issue 22](https://github.com/snu-sf-class/swpp202001/issues/22)
