@@ -74,6 +74,8 @@ Also, [project/spec.pdf](project/spec.pdf) is updated so it contains answers to 
 
 - Jun. 10: About the final presentation and the competition, see [issue 23](https://github.com/snu-sf-class/swpp202001/issues/23). Please poll available times for the presentation.
 
+- Jun. 17: See [issue 25](https://github.com/snu-sf-class/swpp202001/issues/25) to see announcement about competition.
+
 ## Assignments
 
 - Mar. 19: Assignment 1 is announced. See here: https://github.com/aqjune/swpp202001-assn1
