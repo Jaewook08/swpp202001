@@ -76,6 +76,11 @@ Also, [project/spec.pdf](project/spec.pdf) is updated so it contains answers to 
 
 - Jun. 17: See [issue 25](https://github.com/snu-sf-class/swpp202001/issues/25) to see announcement about competition.
 
+- Jun. 19:
+    * We'll have the final presentation at Sat, 3:00 pm.
+    * The benchmarks used for competition is uploaded.
+    * Input 4 of merge_sort/quick_sort/radix_sort is invalid, so please ignore it.
+
 ## Assignments
 
 - Mar. 19: Assignment 1 is announced. See here: https://github.com/aqjune/swpp202001-assn1
