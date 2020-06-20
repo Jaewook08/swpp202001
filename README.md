@@ -80,6 +80,8 @@ Also, [project/spec.pdf](project/spec.pdf) is updated so it contains answers to 
     * We'll have the final presentation at Sat, 3:00 pm.
     * The benchmarks used for competition is uploaded.
     * Input 4 of merge_sort/quick_sort/radix_sort is invalid, so please ignore it.
+    
+- Jun. 20: The aggregated scores of final competition is announced (moved to ETL to address concerns about privacy)
 
 ## Assignments
 
