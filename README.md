@@ -1,5 +1,5 @@
 # M1522.002400 Principles and Practices of Software Development
-
+aaa
 - Instructor: Prof. [Chung-Kil Hur](http://sf.snu.ac.kr/gil.hur)
 - TA: [Juneyoung Lee](http://sf.snu.ac.kr/juneyoung.lee/)(@aqjune), [Sung-Hwan Lee](http://sf.snu.ac.kr/sunghwan.lee/)(@Sung-HwanLee)
     + Email address: swpp@sf.snu.ac.kr. 
