@@ -1,0 +1,4 @@
+#include <stdint.h>
+write(int64_t);
+int a(p1) { return (p1 & 1) + 0; }
+void main() { write(a(read())); }
